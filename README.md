@@ -31,14 +31,14 @@ import { create, check, hash } from 'huid'
 const randomUuid = create() // c6a4e73f-e60a-497e-a58b-f6b12c894090
 
 // Create consitent UUIDs
-const hashedUuid = hash('Hash') // 9155b92f-3db6-4ec4-90de-455bd1bfefb6
+const hashedUuid = hash('Hash') // 684cceb8-0d75-4727-87b8-06e91cd88cb7
 
 // Any string can be passed and will generate consistent values
 hash('Hash') === hash('Hash') // true
 hash('Hash1') !== hash('Hash2') // true
 
 // Check for valid UUIDs
-check('9155b92f-3db6-4ec4-90de-455bd1bfefb6') // true
+check('684cceb8-0d75-4727-87b8-06e91cd88cb7') // true
 check('c6e60a97e586b12c894090') // false
 ```
 
