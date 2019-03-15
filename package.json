@@ -1,8 +1,13 @@
 {
   "name": "huid",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "version": "1.0.1",
+  "description": "Utility for generating, checking or hashing UUIDs",
+  "keywords": [
+    "uuid",
+    "guid",
+    "hash",
+    "hashing"
+  ],
   "main": "dist/huid.umd.js",
   "module": "dist/huid.es5.js",
   "typings": "dist/types/huid.d.ts",
