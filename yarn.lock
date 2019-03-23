@@ -3297,11 +3297,6 @@ fn-name@~2.0.1:
   resolved "https://registry.yarnpkg.com/fn-name/-/fn-name-2.0.1.tgz#5214d7537a4d06a4a301c0cc262feb84188002e7"
   integrity sha1-UhTXU3pNBqSjAcDMJi/rhBiAAuc=
 
-fnv-lite@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/fnv-lite/-/fnv-lite-1.2.0.tgz#f0cf221ea4f0d788b2e4c5c38b327886631b208a"
-  integrity sha1-8M8iHqTw14iy5MXDizJ4hmMbIIo=
-
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
