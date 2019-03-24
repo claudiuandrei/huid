@@ -1,4 +1,4 @@
-import fnv128Hex from './fnv'
+import { digest, hex } from 'hfnv'
 
 // Create a uuid
 // RFC 4122 Version 4 compliant pattern
@@ -22,7 +22,7 @@ export const hash = (s: string): string => {
   let i = 0
 
   // Create a hash
-  const h = fnv128Hex(s)
+  const h = hex(digest(s))
 
   // Return the hash
   return from(() => h[i++])

@@ -1,18 +1,4 @@
 import { check, create, hash } from '../src/huid'
-import fnv128Hex from '../src/fnv'
-
-describe('FNV1a', () => {
-  // Valid UUID should pass the check
-  test('Hashes are consistent', () => {
-    // Check the valid uuid
-    const s = String.fromCharCode(100, 1000, 10000)
-    const u1 = fnv128Hex(s)
-    const u2 = fnv128Hex(s)
-
-    // Expect rules
-    expect(u1).toEqual(u2)
-  })
-})
 
 // Check
 describe('Check', () => {

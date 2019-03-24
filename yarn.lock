@@ -3856,6 +3856,11 @@ hawk@1.1.1:
     hoek "0.9.x"
     sntp "0.2.x"
 
+hfnv@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/hfnv/-/hfnv-1.0.3.tgz#14608a05eceb52e412940c6d4e5336e4783c9557"
+  integrity sha512-CWvrpauMW8p/PnCEWMJ5L9T+xwHT+g6C5MZFc0wZ7DivuikquFTpwJe6fQzGys1FY8i7D61y+tJ3UbdwcXIp9Q==
+
 highlight.js@^9.0.0:
   version "9.15.5"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.5.tgz#636ac5a95b9309c6a0a28c3707e8d3e6d2c7d729"
